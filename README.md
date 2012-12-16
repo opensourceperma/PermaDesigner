@@ -1,4 +1,2 @@
-permadesigner
-=============
-
-Open Source Permaculture Software
+PermaDesigner : Open Source Permaculture Software
+=================================================
