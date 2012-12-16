@@ -1,0 +1,116 @@
+/*Dialog open event*/
+                                open: function(event, ui){
+                                	 
+                                //	    $('#SearchDialog').parent().css('overflow','hidden');
+                                }
+
+
+/*
+function createshapehtml(shapename){
+	
+var shapehtml = 	"<div class='speciesinstance' class='ui-state-active' >"+
+                                         "<div class='shapeheader'>"+
+                                         shapename+
+                                         "<div  class='shapecontrolbtn' type='submit'><image src="+imagepath+"info.png></div>"+
+                                         "<div  class='shapecontrolbtn' type='submit'><image src="+imagepath+"restore.png></div>"+
+                                         "</div>"+
+                                       
+                                         "<div class='input'>"+
+                                         "<div class='shapecontentheader'>input</div>"+
+                                         "<div class='shapecontent'>water</div>"+
+                                         "<div class='shapecontent'>feed</div>"+
+                                         "</div>"+
+                                         
+                                         "<div class='output'>"+
+                                         "<div class='shapecontentheader'>output</div>"+
+                                         "<div class='shapecontent'>eggs</div>"+
+                                         "<div class='shapecontent'>excretion</div>"+
+                                         "<div class='shapecontent'>meat</div>"+
+                                         "</div>"+
+                     "</div>" ;
+	
+return shapehtml	
+}
+*/
+
+/*	
+var shapehtml = 	"<div class='speciesshape' class='ui-state-active' >"+
+                                         
+                                         "<table class='shapecontenttable' cellpadding='0'>"+
+                                         
+										 "<tr class='shapeheader'>"+
+										  "<td>"+
+										 shapename+
+										 "<div  class='shapecontrolbtn' type='submit'><image src="+imagepath+"info.png></div>"+
+                                         "<div  class='shapecontrolbtn' type='submit'><image src="+imagepath+"restore.png></div>"+
+                                          "</td>"+
+                                         "</tr>"+
+                                         
+                                         "<tr>"+
+										 "<td>"+
+										 "<div>"+
+                                         "<table class='contentheadertable' border='1' cellpadding='0' cellspacing='0'>"+
+										 "<tr class='gridheader'>"+"<th width='50%'>Input</th>"+"<th width='50%'>Output</th>"+"</tr>"+
+										 "</table>"+
+										 "</div>"+
+                                         "</td>"+
+                                         "</tr>"+
+                                         
+                                         "<tr>"+
+                                         "<td>"+
+                                         
+										 "<table class='contenttable' border='1' cellpadding='0' cellspacing='0'>"+
+                                         "<tr class='gridcontent'>"+                                         
+                                         "<td width='50%'>" +"<div class='shapeinnerscroll'>"+"here is all the garbage dalla dalla dalla dalla dalla dalla dalla dalla dalla dalla dalla dalla dalla that will overflow"+"</div>"+"</td>"+
+                                         "<td width='50%'>"+"<div class='shapeinnerscroll'>"+"here is all the garbage that will overflow"+"</div>"+" </td>"+
+                                         "</tr>"+
+                                         "</table>"+ 
+                                        
+                                         "</td>"+
+                                         "</tr>"+                                
+      
+                                         "</table>"+                                 
+                     "</div>" ;
+               
+	
+
+var shapehtml = "<div id='"+shapeid+"' class='speciesshape' class='ui-state-active' >"+
+                                         "<div class='shapeheader'>"+
+                                         "<div id='"+shapeid+"handle"+"' style='float:left'>"+shapeid+"</div>"+
+                                         "<div  class='shapecontrolbtn' type='submit'><image src="+imagepath+"info.png></div>"+
+                                         "<div  class='shapecontrolbtn' type='submit'><image src="+imagepath+"restore.png></div>"+
+                                         "</div>"+
+                                         
+                                         "<table class='shapecontenttable' border='1' cellpadding='0'>"+
+                                         
+                                         "<tr class='gridheader'>"+"<th width='50%'>Input</th>"+"<th width='50%'>Output</th>"+"</tr>"+
+                                         
+                                         "<tr class='gridcontent'>"+                                         
+                                         "<td >" +"<div id='sinput' class='shapeinnerscroll' >"+"here is all the garbage dalla dalla dalla dalla dalla dalla dalla dalla dalla dalla dalla dalla dalla that will overflow"+"</div>"+"</td>"+
+                                         "<td >"+"<div id='soutput' class='shapeinnerscroll'>"+"here is all the garbage that will overflow gandoo  gandoo  gandoo  gandoo  gandoo  gandoo  gandoo  gandoo  gandoo "+"</div>"+" </td>"+
+                                         "</tr>"+
+                                         
+                                         "</table>"+  
+                "</div>" ;
+    */       
+    
+    
+    //jsPlumb.setRenderMode(jsPlumb.CANVAS);  
+/*
+var browserinfo = navigator.userAgent;
+if( browserinfo.search('Firefox/16') != -1 )
+{
+	//alert('this is fucking firefox 16');
+    document.getElementById('guilddrawpane').onmouseup = function(){
+       jsPlumb.repaintEverything();
+    };
+}
+*/ 
+
+  /* $("#"+shapeid).draggable({ stack: "div",
+        	                       cancel: "#"+shapeid+"infobtn"+","+
+                                           "#"+shapeid+"restorebtn"+","+
+                                           "#"+shapeid+"output"+","+
+                                           "#"+shapeid+"input"
+        	//'.shapecontrolbtn,.shapeinnerscroll'
+         });*/     
