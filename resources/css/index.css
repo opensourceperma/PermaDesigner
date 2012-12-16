@@ -1,0 +1,70 @@
+/**
+ * @author Averos
+ */
+
+/*This block centers the entire page and sets a static width*/
+#pagelayout {
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	position:absolute;
+	margin: 0;
+}
+
+/*This block is for the main heading on the page*/
+
+#pageheader {
+
+	background-color: #0A2A0A;
+	border: 1px solid #0A2A0A;
+	text-align: center;
+	height:25%;
+	width:100%;
+	color: #BCF5A9;
+}
+
+
+
+#mainpagecontent{
+	display:block;
+	height:50%;
+	width:100%;
+	text-align:center;
+
+}
+
+.indexbutton{
+	margin: 20px;
+}
+
+.indexbutton img:hover{
+    opacity: 0.7;
+}
+
+
+#fatfooter{
+	
+    display:block;
+	background-color: #0A2A0A;
+	border: 1px solid #0A2A0A;
+	height:25%;
+	width:100%;
+	
+}
+
+
+/*This block is for the bar at the bottom of the page*/
+.footer {
+	clear: both;
+	position:absolute;
+	bottom:0;
+	width: inherit;
+	height: 25px;
+	background-color: #0A2A0A;
+	border: 1px solid #0A2A0A;
+	color: #BCF5A9;
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+}
+

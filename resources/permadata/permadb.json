@@ -1,0 +1,195 @@
+{
+    "species": [
+        {
+            "snm": "lactucasativa",
+            "cnm": "lettuce",
+            "typ": "plant",
+            "iput": [
+                "water",
+                "nitrates",
+                "sunlight"
+            ],
+            "oput": [
+                "leaves"
+            ],
+            "info": [
+                {
+                    "harvest": "40-60 days"
+                },
+                {
+                    "function": "ground cover,food"
+                }
+            ],
+            "note": [
+                "poorly stored"
+            ]
+        },
+        {
+            "snm": "solanumlycopersicum",
+            "cnm": "tomato",
+            "typ": "plant",
+            "iput": [
+                "water",
+                "nitrates",
+                "sunlight"
+            ],
+            "oput": [
+                "tomato",
+                "leaves"
+            ],
+            "info": [
+                {
+                    "harvest": "60-85 days"
+                },
+                {
+                    "light": "min 6 hrs"
+                },
+                {
+                    "function": "food"
+                }
+            ],
+            "note": [
+                "they are yummy"
+            ]
+        },
+        {
+            "snm": "ocimumbasilicum",
+            "cnm": "basil",
+            "typ": "plant",
+            "iput": [
+                "water",
+                "nitrates",
+                "sunlight"
+            ],
+            "oput": [
+                "basil leaves",
+                "seeds"
+            ],
+            "info": [
+                {
+                    "harvest": "2-3 weeks"
+                },
+                {
+                    "temp": "75-85°f"
+                },
+                {
+                    "water": "low"
+                },
+                {
+                    "function": "food"
+                }
+            ],
+            "note": [
+                "culniary uses"
+            ]
+        },
+        {
+            "snm": "percaflavescens",
+            "cnm": "yellow perch",
+            "typ": "animal",
+            "iput": [
+                "minnows",
+                "insect larvae",
+                "plankton",
+                "worms"
+            ],
+            "oput": [
+                "meat",
+                "scales",
+                "larvae",
+                "amonia"
+            ],
+            "info": [
+                {
+                    "subtype": "fish"
+                },
+                {
+                    "maturity": "3-4 years"
+                },
+                {
+                    "temp": "63 to 77°f"
+                },
+                {
+                    "function": "bottom feeder"
+                }
+            ],
+            "note": [
+                "Native to North America"
+            ]
+        },
+        {
+            "snm": "oreochromismossambicus",
+            "cnm": "tilapia",
+            "typ": "animal",
+            "iput": [
+                "duckweed",
+                "algae",
+                "plankton",
+                "insect larvae",
+                "worms",
+                "detritus"
+            ],
+            "oput": [
+                "meat",
+                "scales",
+                "larvae",
+                "amonia"
+            ],
+            "info": [
+                {
+                    "subtype": "fish"
+                },
+                {
+                    "maturity": "9 months"
+                },
+                {
+                    "temp": "82 to 86°f"
+                },
+                {
+                    "function": "bottom feeder"
+                }
+            ],
+            "note": [
+                "Native to Africa",
+                "Warning:Not legal in all US states"
+            ]
+        },
+        {
+            "snm": "gallusgallusdomesticus",
+            "cnm": "chicken",
+            "typ": "animal",
+            "iput": [
+                "earthworms",
+                "duckweed",
+                "alfalfa",
+                "comfrey",
+                "grains",
+                "vegetables",
+                "seeds"
+            ],
+            "oput": [
+                "meat",
+                "feather",
+                "eggs",
+                "amonia"
+            ],
+            "info": [
+                {
+                    "subtype": "bird"
+                },
+                {
+                    "maturity": "9 months"
+                },
+                {
+                    "function": "bottom feeder"
+                },
+                {
+                    "spacereq": "shelter"
+                }
+            ],
+            "note": [
+                "For eggs and chicks need them in pair of hen and rooster!"
+            ]
+        }
+    ]
+}

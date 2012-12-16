@@ -1,0 +1,269 @@
+/* add padding and min/max sizes to BODY */
+	html {
+		/* allow scrolling if layout hits min-width/height */
+		overflow:		auto !important; /* override Layout default of 'hidden' to allow scrollbars */
+	}
+	body {
+		padding:		0 20px !important; /* override Layout default of '0' */
+		/* set min dimensions for layout - window will scroll if smaller than this */
+		min-width:		950px;
+		min-height:		600px;
+		/* max-width works for left-aligned layout - need a container-div to 'center' the layout */
+		/*max-width:		1000px;*/
+	}
+	p {
+		margin:	0 0 1ex;
+	}
+	/* 
+	*	HELPER CLASSES
+	*/
+	.container {
+		/* used for elements that should not have padding or scrollbars */
+		padding:	0;
+		overflow:	hidden;
+	}
+	.hidden {
+		/* used to HIDE layout-panes until Layout initializes */
+		display:	none;
+	}
+
+	/*
+	 *	TAB CLASSES - STRUCTURAL, REQUIRED
+	 */
+	DIV#tabs { /* page-wrapper - used ONLY to 'wrap' tabButtons and tabPanels */
+		position:	static	!important; /* overide UI Theme - prevent from becoming a positional wrapper */
+		}
+		UL#tabButtons ,
+		DIV#tabPanels {
+			margin:		0 !important; /* layout-panes should never have margins */
+		}
+		DIV#tabPanels {}
+		
+			
+		  DIV#GuildWorkbench.tabPanel,DIV#LayoutWorkbench.tabPanel { /* container for tabLayout */
+				height:		100%; /* need to 'fill' the tabPanels - layout container must have 'height' */
+				/* padding:	0;    DO NOT set top- or bottom-padding because height=100% */
+			}
+         
+			
+	/*
+	 *	DEBUG - add colored padding & borders to show what is possible
+	 */
+
+	#tabs {}
+		#tabButtons {border-bottom-color: #CCCCCC;}
+		#tabPanels {	/* Tab-Panels Container (pageLayout center-pane) */
+			border:		1px solid #FFFFFF;/* DEBUG - Dark Blue */
+			background:	#FFFFFF;			/* DEBUG - Lite Blue */
+			padding:	0px;			/* DEBUG - allows bgColor to show */
+			}
+			#tabPanels .tabPanel { /* #tab0 & #GuildWorkbench */
+				background: #FFFFFF;		/* DEBUG - Grey */
+				min-height:	100px;		/* DEBUG */
+				padding:	0px;		/* DEBUG - No vertical-padding because #GuildWorkbench.height=100% */
+				}
+				#innerLayout,#LWinnerLayout {	/* innerLayout Container (tabLayout center-pane) */
+					border:		1px solid #FFFFFF;/* DEBUG - Dark Green*/
+					background: #FFFFFF;			/* DEBUG - Lite Green  */
+					padding:	0;			/* DEBUG - allows bgColor to show */
+					}
+				
+
+	/*
+	 *	add some padding and set overflow
+	 */
+	.ui-widget-header {
+		padding:	1px 1em 3px;
+		overflow:	hidden;
+		color:#BCF5A9;
+	}
+	.ui-widget-content {
+		padding:	1ex 1em;
+		overflow:	auto;
+	}
+    
+.toolbar{
+	
+	width: 100%;
+	height: 45px;
+	background:#DDDDDD;
+}
+
+
+/*Search Dialog*/
+.SearchDialog{
+	overflow: hidden;
+ }
+
+#SearchForm{
+height:45%;
+}
+#SearchResult{
+height:55%;	
+}
+
+#SearchResult,#SearchForm{
+width:100%;
+border-color:#CCCCCC;
+border-style:solid;
+border-width: thin;
+border-radius:3px;
+margin:1px;
+overflow: auto;
+
+}
+
+.DialogBtn{
+	height:35px;
+	width: 75px;	
+}
+
+.MatchedResult{
+ 
+ border-bottom-style:solid;
+ border-width:thin;
+ border-color:#AAAAAA;
+ height: 45px;
+ padding: 5px;
+ background:#FFFFFF; 	
+	
+}
+
+
+
+/* Shape and Connector*/
+
+.speciesshape{
+	
+	width: 190px;
+	height: 140px;
+	min-width:190px;
+	min-height:140px; 
+	border-style: solid;
+	border-width:thin;
+	border-color: #333333;
+    background: #EEEEEE;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+/*    z-index: 1; */
+    
+}
+
+
+.shapeinnerscroll{
+
+		
+	border-style: hidden;
+	height:85px;
+	width:94.5px;
+	min-width:94.5px;
+	min-height:85px;
+	overflow-y:auto;
+}
+
+.shapeheader{
+ height: 20px;
+ background: #0A2A0A;
+ color:#FFFFFF;	
+ 
+}
+
+.shapecontrolbtn{
+height:17px;
+width: 17px;
+float: right;
+font-weight: bold;
+border-style:solid;
+background: #0A2A0A;
+border-width: 1px;
+border-color: #0B6121;
+border-radius: 4px;
+margin-left: 2px;
+overflow: hidden;
+text-align: center;
+}
+
+.shapecontrolbtn:hover{
+border-color:#009900;
+}
+
+.shapecontenttable {
+
+	
+	width: 100%;
+    height: 105px;
+	border-collapse: collapse;
+    border-style: solid;
+	border-width:thin;
+	border-color: #333333;
+	border-right-style: hidden;
+	border-left-style: hidden;
+}
+
+
+.gridheader{
+	height : 20px;
+	background: #DDDDDD;
+	color:#000000;
+	font-size:small;
+	border-width:thin;
+	border-color: #333333;
+}
+
+.gridcontent{
+	
+	background: #FFFFFF;
+	
+}
+
+
+.inputelement, .outputelement{
+	height:13px;
+	width:80%;
+	border-style:solid;
+	border-width:thin;
+	border-radius:2px;
+	border-color:#666666;
+	color:#000000;
+	background: #CEFEFB;
+	font-size:small;
+	margin-top:5px;
+	overflow:hidden;
+    line-height: 80%;
+    text-align:center;
+	
+}
+
+.inputelement:hover, .outputelement:hover{
+	background:#17CFE8;
+	
+}
+
+.inputelement{
+	float:left;
+}
+.outputelement{
+	float:right;
+}
+
+
+
+.connectorlabel{
+
+border-style:solid;
+border-width:thin;
+border-radius:3px;
+border-color:#666666;
+background:#F3F781;
+color:#0000CC;
+font-size:small;
+padding: 2px;
+	
+}
+
+.connectorlabel:hover{
+	background:#FFFF00;
+	border-color:#000000;
+}
+
